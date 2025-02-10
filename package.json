@@ -1,0 +1,22 @@
+{
+	"name": "khairulhaziq-portfolio",
+	"author": "Khairul Haziq",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "bunx --bun astro dev",
+		"build": "bunx --bun astro build",
+		"preview": "bunx --bun astro preview",
+		"astro": "astro",
+		"format": "bunx biome format --write ./src/",
+		"lint": "bunx biome lint --write ./src/",
+		"check": "bunx biome check --write ./src/"
+	},
+	"dependencies": {
+		"astro": "^5.2.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4"
+	},
+	"trustedDependencies": ["@biomejs/biome"]
+}
